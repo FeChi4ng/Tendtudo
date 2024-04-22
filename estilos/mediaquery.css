@@ -1,0 +1,42 @@
+@media (max-width: 750px) {
+    .navegacao {
+        padding: 18px 20px;
+    }
+
+    .navegacao .menu {
+        display: block;
+    }
+
+    .navegacao .itens {
+        display: none;
+        position: fixed;
+        flex-direction: column;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+    
+    .home-img img {
+        display: none;
+    }
+
+    body{
+        background-image: url(../images/pexels-andrea-piacquadio-760118.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+
+    main > section {
+        background-color: rgba(0, 0, 0, 0.534);
+        padding: 10px;
+        margin:auto;
+    }
+
+    .home-txt .texto-h1 {
+        color:white;
+    }
+
+
+}
